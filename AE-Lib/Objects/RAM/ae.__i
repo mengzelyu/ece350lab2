@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768
+-I.\RTE\_AE_Lib_RAM
+-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"
+-I"D:\Mengze's stuff\ARM\CMSIS\Include"
+-D__UVISION_VERSION="530" -DLPC175x_6x -D_RTE_ -DDEBUG_0
+-o .\objects\ram\ae.o --omf_browse .\objects\ram\ae.crf --depend .\objects\ram\ae.d "src\ae\ae.c"

@@ -1,0 +1,29 @@
+Dependencies for Project 'ae-lib', Target 'AE Lib RAM': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\src\ae\ae.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\_AE_Lib_RAM-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-I"D:\Mengze's stuff\ARM\CMSIS\Include"-D__UVISION_VERSION="530" -DLPC175x_6x -D_RTE_ -DDEBUG_0-o .\objects\ram\ae.o --omf_browse .\objects\ram\ae.crf --depend .\objects\ram\ae.d)
+I (..\include\ae.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (..\include\rtx.h)(0x60DDA719)
+I (..\include\rtx_ext.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+F (.\src\ae\ae_tasks.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\_AE_Lib_RAM-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-I"D:\Mengze's stuff\ARM\CMSIS\Include"-D__UVISION_VERSION="530" -DLPC175x_6x -D_RTE_ -DDEBUG_0-o .\objects\ram\ae_tasks.o --omf_browse .\objects\ram\ae_tasks.crf --depend .\objects\ram\ae_tasks.d)
+I (src\ae\ae_tasks.h)(0x60DDA719)
+I (..\include\rtx.h)(0x60DDA719)
+I (..\include\rtx_ext.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+F (.\src\ae\ae_tasks1_G99.c)(0x00000000)()
+F (.\src\ae\ae_tasks2_G99.c)(0x00000000)()
+F (.\src\ae\ae_tasks3_G99.c)(0x00000000)()
