@@ -1,0 +1,152 @@
+Dependencies for Project 'rtx-app', Target 'RTX App RAM': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\src\bsp\LPC1768\uart_polling.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\uart_polling.o --omf_browse .\objects\ram\uart_polling.crf --depend .\objects\ram\uart_polling.d)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+F (.\src\kernel\HAL.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\hal.o --omf_browse .\objects\ram\hal.crf --depend .\objects\ram\hal.d)
+I (src\kernel\k_rtx.h)(0x60DDA719)
+I (src\kernel\k_rtx_init.h)(0x60DDA719)
+I (src\kernel\k_inc.h)(0x60DDA719)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\rtx_errno.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (src\kernel\k_mem.h)(0x60DDA719)
+I (src\kernel\k_task.h)(0x60DDA719)
+F (.\src\kernel\k_mem.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\k_mem.o --omf_browse .\objects\ram\k_mem.crf --depend .\objects\ram\k_mem.d)
+I (src\kernel\k_inc.h)(0x60DDA719)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\rtx_errno.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (src\kernel\k_mem.h)(0x60DDA719)
+F (.\src\kernel\k_rtx_init.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\k_rtx_init.o --omf_browse .\objects\ram\k_rtx_init.crf --depend .\objects\ram\k_rtx_init.d)
+I (src\kernel\k_rtx_init.h)(0x60DDA719)
+I (src\kernel\k_inc.h)(0x60DDA719)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\rtx_errno.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (src\kernel\k_rtx.h)(0x60DDA719)
+I (src\kernel\k_mem.h)(0x60DDA719)
+I (src\kernel\k_task.h)(0x60DDA719)
+F (.\src\kernel\k_task.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\k_task.o --omf_browse .\objects\ram\k_task.crf --depend .\objects\ram\k_task.d)
+I (src\kernel\k_inc.h)(0x60DDA719)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\rtx_errno.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (src\kernel\k_task.h)(0x60DDA719)
+I (src\kernel\k_rtx.h)(0x60DDA719)
+I (src\kernel\k_rtx_init.h)(0x60DDA719)
+I (src\kernel\k_mem.h)(0x60DDA719)
+F (.\src\kernel\main.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\main.o --omf_browse .\objects\ram\main.crf --depend .\objects\ram\main.d)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\rtx.h)(0x60DDA719)
+I (..\include\rtx_ext.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\rtx_errno.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+I (..\include\ae.h)(0x60DDA719)
+F (.\src\libu\printf.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\printf.o --omf_browse .\objects\ram\printf.crf --depend .\objects\ram\printf.d)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+F (.\src\tasks\null_task.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\null_task.o --omf_browse .\objects\ram\null_task.crf --depend .\objects\ram\null_task.d)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\rtx.h)(0x60DDA719)
+I (..\include\rtx_ext.h)(0x60DDA719)
+I (..\include\common.h)(0x60DDA719)
+I (..\include\common_ext.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x60DDA719)
+I (..\include\bsp\LPC1768\uart_def.h)(0x60DDA719)
+I (..\include\printf.h)(0x60DDA719)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdarg.h)(0x5E53F91C)
+F (..\AE-Lib\Objects\SIM\ae-lib-sim.lib)(0x00000000)()
+F (..\AE-Lib\Objects\RAM\ae-lib-ram.lib)(0x60DDA72E)()
+F (RTE\Device\LPC1768\RTE_Device.h)(0x60DDA719)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x60DDA719)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1" --pd "NO_CRP SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\ram\startup_lpc17xx.o --depend .\objects\ram\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x60DDA719)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_RAM-I"D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -DDEBUG_0 -DDEBUG_1-o .\objects\ram\system_lpc17xx.o --omf_browse .\objects\ram\system_lpc17xx.crf --depend .\objects\ram\system_lpc17xx.d)
+I (D:\Mengze's stuff\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x584985E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Mengze's stuff\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x584985E2)

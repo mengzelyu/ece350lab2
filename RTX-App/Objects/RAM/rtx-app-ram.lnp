@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\ram\uart_polling.o"
+".\objects\ram\hal.o"
+".\objects\ram\k_mem.o"
+".\objects\ram\k_rtx_init.o"
+".\objects\ram\k_task.o"
+".\objects\ram\main.o"
+".\objects\ram\printf.o"
+".\objects\ram\null_task.o"
+"..\AE-Lib\Objects\RAM\ae-lib-ram.lib"
+".\objects\ram\startup_lpc17xx.o"
+".\objects\ram\system_lpc17xx.o"
+--strict --scatter ".\Objects\RAM\rtx-app-ram.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rtx-app-ram.map" -o .\Objects\RAM\rtx-app-ram.axf
